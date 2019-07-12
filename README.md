@@ -1,2 +1,1 @@
-# ssh-config
-SSH config
+# ssh config
