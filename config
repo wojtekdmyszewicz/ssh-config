@@ -11,5 +11,5 @@ Host private.github.com
 
 Host work.github.com
   Hostname github.com
-  User work-user
-  IdentityFile ~/.ssh/id_rsa_work
+  User business-user
+  IdentityFile ~/.ssh/id_rsa_business
