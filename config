@@ -1,0 +1,19 @@
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  ServerAliveInterval 60
+  IdentityFile ~/.ssh/id_rsa
+
+Host private.github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  Hostname github.com
+  User personal-user
+  IdentityFile ~/.ssh/id_rsa_personal
+
+Host work.github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  Hostname github.com
+  User work-user
+  IdentityFile ~/.ssh/id_rsa_work
